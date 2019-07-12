@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TestApp/Pods-TestApp-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestA.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestB.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestBasis.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestC.bundle
