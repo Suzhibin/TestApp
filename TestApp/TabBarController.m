@@ -27,26 +27,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//     [[UITabBar appearance] setTranslucent:NO];
-//    self.tabBar.tintColor = [UIColor redColor];
-//    self.tabBar.barTintColor = [UIColor whiteColor];
+
     TestAViewController *testA=[[TestAViewController alloc]init];
-    [self setupChildViewController:testA title:@"testA" image:@"" selectedImage:@""];
+    [self setupChildViewController:testA title:@"testA"];
     
     TestBViewController *testB=[[TestBViewController alloc]init];
-    [self setupChildViewController:testB title:@"testB" image:@"" selectedImage:@""];
+    [self setupChildViewController:testB title:@"testB"];
     
     TestCViewController *testC=[[TestCViewController alloc]init];
-    [self setupChildViewController:testC title:@"testC" image:@"" selectedImage:@""];
+    [self setupChildViewController:testC title:@"testC"];
 }
-- (void)setupChildViewController:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
+- (void)setupChildViewController:(UIViewController *)vc title:(NSString *)title
 {
    vc.title = title;
-   
-//    vc.tabBarItem.image=[[UIImage imageNamed:image]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    vc.tabBarItem.selectedImage=[[UIImage imageNamed:selectedImage]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    // vc.tabBarItem.badgeValue =@"";//角标
-    // vc.tabBarItem.imageInsets = UIEdgeInsetsMake(8, 0, -8, 0);//设置按钮上下
+ 
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:vc]];
 }
 /*
