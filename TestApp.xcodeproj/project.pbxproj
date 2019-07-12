@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		9F9EDD9522D74149003E519A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EDD9422D74149003E519A /* main.m */; };
 		9F9EDD9F22D74149003E519A /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EDD9E22D74149003E519A /* TestAppTests.m */; };
 		9F9EDDAA22D74149003E519A /* TestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EDDA922D74149003E519A /* TestAppUITests.m */; };
+		9FA7E35E22D82A5300332E45 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7E35D22D82A5300332E45 /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9F9EDDA522D74149003E519A /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9EDDA922D74149003E519A /* TestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppUITests.m; sourceTree = "<group>"; };
 		9F9EDDAB22D74149003E519A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA7E35C22D82A5300332E45 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		9FA7E35D22D82A5300332E45 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		E1488C72A4C64AA39D4CDCA5 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +100,6 @@
 				E1488C72A4C64AA39D4CDCA5 /* Pods-TestApp.debug.xcconfig */,
 				0AA2B90C757F423586C56877 /* Pods-TestApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -126,6 +128,8 @@
 		9F9EDD8422D74147003E519A /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				9FA7E35C22D82A5300332E45 /* TabBarController.h */,
+				9FA7E35D22D82A5300332E45 /* TabBarController.m */,
 				9F9EDD8522D74147003E519A /* AppDelegate.h */,
 				9F9EDD8622D74147003E519A /* AppDelegate.m */,
 				9F9EDD8822D74147003E519A /* ViewController.h */,
@@ -332,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9EDD8A22D74147003E519A /* ViewController.m in Sources */,
+				9FA7E35E22D82A5300332E45 /* TabBarController.m in Sources */,
 				9F9EDD9522D74149003E519A /* main.m in Sources */,
 				9F9EDD8722D74147003E519A /* AppDelegate.m in Sources */,
 			);
