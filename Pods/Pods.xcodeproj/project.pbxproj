@@ -7,187 +7,233 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EB2E000003B0 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* MGJRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E000003C0 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000E0 /* MGJRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000410 /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000400 /* MGJRouter-dummy.m */; };
-		46EB2E00000520 /* TestA.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002C0 /* TestA.xcassets */; };
-		46EB2E00000660 /* TestBasis.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* TestBasis.xcassets */; };
-		46EB2E00000710 /* TestARoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* TestARoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000720 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* TestAViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000730 /* TestARoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* TestARoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000740 /* TestAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* TestAViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000750 /* TestBDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* TestBDetailsViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000760 /* TestBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* TestBViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000770 /* TexsBRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* TexsBRoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000780 /* TestBDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* TestBDetailsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000790 /* TestBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* TestBViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E000007A0 /* TexsBRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* TexsBRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E000007B0 /* BasisTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* BasisTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E000007C0 /* NSBundle+TextBundleName.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* NSBundle+TextBundleName.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E000007D0 /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* RequestTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E000007E0 /* BasisTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* BasisTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E000007F0 /* NSBundle+TextBundleName.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000200 /* NSBundle+TextBundleName.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000800 /* RequestTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000230 /* RequestTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000810 /* TestBasisHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* TestBasisHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000820 /* TestCRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* TestCRoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000830 /* TestCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* TestCViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EB2E00000840 /* TestCRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* TestCRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000850 /* TestCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* TestCViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00000890 /* TestAppModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000880 /* TestAppModule-dummy.m */; };
-		46EB2E00000990 /* Pods-TestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000980 /* Pods-TestApp-dummy.m */; };
+		46EB2E00000450 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* CTMediator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000460 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000004B0 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000004A0 /* CTMediator-dummy.m */; };
+		46EB2E00000540 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* MGJRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000550 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000110 /* MGJRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000005A0 /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000590 /* MGJRouter-dummy.m */; };
+		46EB2E000006B0 /* TestA.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000360 /* TestA.xcassets */; };
+		46EB2E000007F0 /* TestBasis.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000380 /* TestBasis.xcassets */; };
+		46EB2E000008A0 /* TestARoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* TestARoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000008B0 /* TestAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000170 /* TestAViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000008C0 /* TestARoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000140 /* TestARoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000008D0 /* TestAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* TestAViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000008E0 /* TestBDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* TestBDetailsViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000008F0 /* TestBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* TestBViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000900 /* TexsBRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* TexsBRoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000910 /* TestBDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* TestBDetailsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000920 /* TestBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* TestBViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000930 /* TexsBRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* TexsBRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000940 /* BasisTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* BasisTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000950 /* CTMediator+TestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* CTMediator+TestA.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000960 /* CTMediator+TestB.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* CTMediator+TestB.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000970 /* CTMediator+TestC.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* CTMediator+TestC.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000980 /* NSBundle+TextBundleName.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* NSBundle+TextBundleName.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000990 /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* RequestTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E000009A0 /* BasisTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* BasisTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000009B0 /* CTMediator+TestA.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* CTMediator+TestA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000009C0 /* CTMediator+TestB.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* CTMediator+TestB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000009D0 /* CTMediator+TestC.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* CTMediator+TestC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000009E0 /* NSBundle+TextBundleName.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* NSBundle+TextBundleName.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000009F0 /* RequestTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* RequestTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000A00 /* TestBasisHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002F0 /* TestBasisHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000A10 /* TestCRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* TestCRoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000A20 /* TestCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000340 /* TestCViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46EB2E00000A30 /* TestCRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* TestCRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000A40 /* TestCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* TestCViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00000A80 /* TestAppModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000A70 /* TestAppModule-dummy.m */; };
+		46EB2E00000B80 /* Pods-TestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000B70 /* Pods-TestApp-dummy.m */; };
+		9FACB93A22DEC20A0025F181 /* Target_TestB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FACB93822DEC20A0025F181 /* Target_TestB.h */; };
+		9FACB93B22DEC20A0025F181 /* Target_TestB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FACB93922DEC20A0025F181 /* Target_TestB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E000009A0 /* PBXContainerItemProxy */ = {
+		46EB2E00000B90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		46EB2E00000BB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05EFAB4641387DB59867C088BAF00810;
 			remoteInfo = MGJRouter;
 		};
-		46EB2E000009C0 /* PBXContainerItemProxy */ = {
+		46EB2E00000BD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F3406E5AD59CDDD5B7C47D99E43E887;
 			remoteInfo = TestAppModule;
 		};
-		46EB2E000009E0 /* PBXContainerItemProxy */ = {
+		46EB2E00000BF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AA1F41BA6F88DD624D0BE491D58966FD;
 			remoteInfo = "TestAppModule-TestA";
 		};
-		46EB2E00000A00 /* PBXContainerItemProxy */ = {
+		46EB2E00000C10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91EA1CD6FD07D5D84EFB9C31ADA9E94D;
 			remoteInfo = "TestAppModule-TestB";
 		};
-		46EB2E00000A20 /* PBXContainerItemProxy */ = {
+		46EB2E00000C30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E50C22085320AF2E795956482AE835FF;
 			remoteInfo = "TestAppModule-TestBasis";
 		};
-		46EB2E00000A40 /* PBXContainerItemProxy */ = {
+		46EB2E00000C50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8696C341BC9687E900D2FA672CAA1414;
 			remoteInfo = "TestAppModule-TestC";
 		};
-		46EB2E00000A60 /* PBXContainerItemProxy */ = {
+		46EB2E00000C70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05EFAB4641387DB59867C088BAF00810;
 			remoteInfo = MGJRouter;
 		};
+		46EB2E00000C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46EB2E000000D0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E000000E0 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
-		46EB2E000000F0 /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
-		46EB2E00000110 /* TestARoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestARoute.h; path = TestA/TestA/Classes/TestARoute.h; sourceTree = "<group>"; };
-		46EB2E00000120 /* TestARoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestARoute.m; path = TestA/TestA/Classes/TestARoute.m; sourceTree = "<group>"; };
-		46EB2E00000130 /* TestAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAViewController.h; path = TestA/TestA/Classes/TestAViewController.h; sourceTree = "<group>"; };
-		46EB2E00000140 /* TestAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestAViewController.m; path = TestA/TestA/Classes/TestAViewController.m; sourceTree = "<group>"; };
-		46EB2E00000160 /* TestBDetailsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestBDetailsViewController.h; path = TestB/TestB/Classes/TestBDetailsViewController.h; sourceTree = "<group>"; };
-		46EB2E00000170 /* TestBDetailsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestBDetailsViewController.m; path = TestB/TestB/Classes/TestBDetailsViewController.m; sourceTree = "<group>"; };
-		46EB2E00000180 /* TestBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestBViewController.h; path = TestB/TestB/Classes/TestBViewController.h; sourceTree = "<group>"; };
-		46EB2E00000190 /* TestBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestBViewController.m; path = TestB/TestB/Classes/TestBViewController.m; sourceTree = "<group>"; };
-		46EB2E000001A0 /* TexsBRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TexsBRoute.h; path = TestB/TestB/Classes/TexsBRoute.h; sourceTree = "<group>"; };
-		46EB2E000001B0 /* TexsBRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TexsBRoute.m; path = TestB/TestB/Classes/TexsBRoute.m; sourceTree = "<group>"; };
-		46EB2E000001E0 /* BasisTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BasisTool.h; sourceTree = "<group>"; };
-		46EB2E000001F0 /* BasisTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BasisTool.m; sourceTree = "<group>"; };
-		46EB2E00000200 /* NSBundle+TextBundleName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TextBundleName.h"; path = "TestBasis/TestBasis/Classes/NSBundle+TextBundleName.h"; sourceTree = "<group>"; };
-		46EB2E00000210 /* NSBundle+TextBundleName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TextBundleName.m"; path = "TestBasis/TestBasis/Classes/NSBundle+TextBundleName.m"; sourceTree = "<group>"; };
-		46EB2E00000230 /* RequestTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
-		46EB2E00000240 /* RequestTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
-		46EB2E00000250 /* TestBasisHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestBasisHeader.h; path = TestBasis/TestBasis/Classes/TestBasisHeader.h; sourceTree = "<group>"; };
-		46EB2E00000270 /* TestCRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestCRoute.h; path = TestC/TestC/Classes/TestCRoute.h; sourceTree = "<group>"; };
-		46EB2E00000280 /* TestCRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestCRoute.m; path = TestC/TestC/Classes/TestCRoute.m; sourceTree = "<group>"; };
-		46EB2E00000290 /* TestCViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestCViewController.h; path = TestC/TestC/Classes/TestCViewController.h; sourceTree = "<group>"; };
-		46EB2E000002A0 /* TestCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestCViewController.m; path = TestC/TestC/Classes/TestCViewController.m; sourceTree = "<group>"; };
-		46EB2E000002C0 /* TestA.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TestA.xcassets; path = TestA/TestA/Classes/TestA.xcassets; sourceTree = "<group>"; };
-		46EB2E000002E0 /* TestBasis.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TestBasis.xcassets; path = TestBasis/TestBasis/Classes/TestBasis.xcassets; sourceTree = "<group>"; };
-		46EB2E00000300 /* README.en.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.en.md; sourceTree = "<group>"; };
-		46EB2E00000310 /* TestA.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestA.pch; path = TestA/TestA/Classes/TestA.pch; sourceTree = "<group>"; };
-		46EB2E00000320 /* TestAppModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestAppModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00000370 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMGJRouter.a; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E000003E0 /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
-		46EB2E000003F0 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000400 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000460 /* libTestAppModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTestAppModule.a; path = libTestAppModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E000004E0 /* TestA.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestA.bundle; path = "TestAppModule-TestA.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000540 /* ResourceBundle-TestA-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestA-TestAppModule-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000590 /* TestB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestB.bundle; path = "TestAppModule-TestB.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E000005D0 /* ResourceBundle-TestB-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestB-TestAppModule-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000620 /* TestBasis.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestBasis.bundle; path = "TestAppModule-TestBasis.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000670 /* ResourceBundle-TestBasis-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestBasis-TestAppModule-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000006C0 /* TestC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestC.bundle; path = "TestAppModule-TestC.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000700 /* ResourceBundle-TestC-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestC-TestAppModule-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000860 /* TestAppModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAppModule.xcconfig; sourceTree = "<group>"; };
-		46EB2E00000870 /* TestAppModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAppModule-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000880 /* TestAppModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAppModule-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000008E0 /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestApp.a"; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000930 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000940 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000950 /* Pods-TestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestApp-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00000960 /* Pods-TestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000970 /* Pods-TestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000980 /* Pods-TestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestApp-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000000E0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000000F0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		46EB2E00000100 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		46EB2E00000110 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
+		46EB2E00000120 /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		46EB2E00000140 /* TestARoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestARoute.h; path = TestA/TestA/Classes/TestARoute.h; sourceTree = "<group>"; };
+		46EB2E00000150 /* TestARoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestARoute.m; path = TestA/TestA/Classes/TestARoute.m; sourceTree = "<group>"; };
+		46EB2E00000160 /* TestAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAViewController.h; path = TestA/TestA/Classes/TestAViewController.h; sourceTree = "<group>"; };
+		46EB2E00000170 /* TestAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestAViewController.m; path = TestA/TestA/Classes/TestAViewController.m; sourceTree = "<group>"; };
+		46EB2E00000190 /* TestBDetailsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestBDetailsViewController.h; path = TestB/TestB/Classes/TestBDetailsViewController.h; sourceTree = "<group>"; };
+		46EB2E000001A0 /* TestBDetailsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestBDetailsViewController.m; path = TestB/TestB/Classes/TestBDetailsViewController.m; sourceTree = "<group>"; };
+		46EB2E000001B0 /* TestBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestBViewController.h; path = TestB/TestB/Classes/TestBViewController.h; sourceTree = "<group>"; };
+		46EB2E000001C0 /* TestBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestBViewController.m; path = TestB/TestB/Classes/TestBViewController.m; sourceTree = "<group>"; };
+		46EB2E000001D0 /* TexsBRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TexsBRoute.h; path = TestB/TestB/Classes/TexsBRoute.h; sourceTree = "<group>"; };
+		46EB2E000001E0 /* TexsBRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TexsBRoute.m; path = TestB/TestB/Classes/TexsBRoute.m; sourceTree = "<group>"; };
+		46EB2E00000210 /* BasisTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BasisTool.h; sourceTree = "<group>"; };
+		46EB2E00000220 /* BasisTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BasisTool.m; sourceTree = "<group>"; };
+		46EB2E00000240 /* CTMediator+TestA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TestA.h"; sourceTree = "<group>"; };
+		46EB2E00000250 /* CTMediator+TestA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TestA.m"; sourceTree = "<group>"; };
+		46EB2E00000260 /* CTMediator+TestB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TestB.h"; sourceTree = "<group>"; };
+		46EB2E00000270 /* CTMediator+TestB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TestB.m"; sourceTree = "<group>"; };
+		46EB2E00000280 /* CTMediator+TestC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TestC.h"; sourceTree = "<group>"; };
+		46EB2E00000290 /* CTMediator+TestC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TestC.m"; sourceTree = "<group>"; };
+		46EB2E000002A0 /* NSBundle+TextBundleName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TextBundleName.h"; path = "TestBasis/TestBasis/Classes/NSBundle+TextBundleName.h"; sourceTree = "<group>"; };
+		46EB2E000002B0 /* NSBundle+TextBundleName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TextBundleName.m"; path = "TestBasis/TestBasis/Classes/NSBundle+TextBundleName.m"; sourceTree = "<group>"; };
+		46EB2E000002D0 /* RequestTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
+		46EB2E000002E0 /* RequestTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
+		46EB2E000002F0 /* TestBasisHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestBasisHeader.h; path = TestBasis/TestBasis/Classes/TestBasisHeader.h; sourceTree = "<group>"; };
+		46EB2E00000310 /* TestCRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestCRoute.h; path = TestC/TestC/Classes/TestCRoute.h; sourceTree = "<group>"; };
+		46EB2E00000320 /* TestCRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestCRoute.m; path = TestC/TestC/Classes/TestCRoute.m; sourceTree = "<group>"; };
+		46EB2E00000330 /* TestCViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestCViewController.h; path = TestC/TestC/Classes/TestCViewController.h; sourceTree = "<group>"; };
+		46EB2E00000340 /* TestCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestCViewController.m; path = TestC/TestC/Classes/TestCViewController.m; sourceTree = "<group>"; };
+		46EB2E00000360 /* TestA.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TestA.xcassets; path = TestA/TestA/Classes/TestA.xcassets; sourceTree = "<group>"; };
+		46EB2E00000380 /* TestBasis.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TestBasis.xcassets; path = TestBasis/TestBasis/Classes/TestBasis.xcassets; sourceTree = "<group>"; };
+		46EB2E000003A0 /* README.en.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.en.md; sourceTree = "<group>"; };
+		46EB2E000003B0 /* TestA.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestA.pch; path = TestA/TestA/Classes/TestA.pch; sourceTree = "<group>"; };
+		46EB2E000003C0 /* TestAppModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestAppModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000410 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000480 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000490 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E000004A0 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000500 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000570 /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000580 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000590 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000005F0 /* libTestAppModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestAppModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000670 /* TestA.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestA.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000006D0 /* ResourceBundle-TestA-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestA-TestAppModule-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000720 /* TestB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestB.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000760 /* ResourceBundle-TestB-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestB-TestAppModule-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000007B0 /* TestBasis.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBasis.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000800 /* ResourceBundle-TestBasis-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestBasis-TestAppModule-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000850 /* TestC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000890 /* ResourceBundle-TestC-TestAppModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TestC-TestAppModule-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000A50 /* TestAppModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestAppModule.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000A60 /* TestAppModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestAppModule-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000A70 /* TestAppModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestAppModule-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000AD0 /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000B20 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000B30 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000B40 /* Pods-TestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestApp-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00000B50 /* Pods-TestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000B60 /* Pods-TestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000B70 /* Pods-TestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestApp-dummy.m"; sourceTree = "<group>"; };
+		9FACB93822DEC20A0025F181 /* Target_TestB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_TestB.h; sourceTree = "<group>"; };
+		9FACB93922DEC20A0025F181 /* Target_TestB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_TestB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E000003A0 /* Frameworks */ = {
+		46EB2E00000440 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000490 /* Frameworks */ = {
+		46EB2E00000530 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000500 /* Frameworks */ = {
+		46EB2E00000620 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000005B0 /* Frameworks */ = {
+		46EB2E00000690 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000640 /* Frameworks */ = {
+		46EB2E00000740 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000006E0 /* Frameworks */ = {
+		46EB2E000007D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000910 /* Frameworks */ = {
+		46EB2E00000870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000B00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,7 +246,7 @@
 		46EB2E00000010 = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000D0 /* Podfile */,
+				46EB2E000000E0 /* Podfile */,
 				46EB2E00000090 /* Development Pods */,
 				46EB2E00000060 /* Frameworks */,
 				46EB2E00000080 /* Pods */,
@@ -212,13 +258,14 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000370 /* libMGJRouter.a */,
-				46EB2E000008E0 /* libPods-TestApp.a */,
-				46EB2E00000460 /* libTestAppModule.a */,
-				46EB2E000004E0 /* TestA.bundle */,
-				46EB2E00000590 /* TestB.bundle */,
-				46EB2E00000620 /* TestBasis.bundle */,
-				46EB2E000006C0 /* TestC.bundle */,
+				46EB2E00000410 /* libCTMediator.a */,
+				46EB2E00000500 /* libMGJRouter.a */,
+				46EB2E00000AD0 /* libPods-TestApp.a */,
+				46EB2E000005F0 /* libTestAppModule.a */,
+				46EB2E00000670 /* TestA.bundle */,
+				46EB2E00000720 /* TestB.bundle */,
+				46EB2E000007B0 /* TestBasis.bundle */,
+				46EB2E00000850 /* TestC.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,7 +280,7 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000920 /* Pods-TestApp */,
+				46EB2E00000B10 /* Pods-TestApp */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -241,7 +288,8 @@
 		46EB2E00000080 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000B0 /* MGJRouter */,
+				46EB2E000000B0 /* CTMediator */,
+				46EB2E000000C0 /* MGJRouter */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -249,166 +297,203 @@
 		46EB2E00000090 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000C0 /* TestAppModule */,
+				46EB2E000000D0 /* TestAppModule */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		46EB2E000000B0 /* MGJRouter */ = {
+		46EB2E000000B0 /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000E0 /* MGJRouter.h */,
-				46EB2E000000F0 /* MGJRouter.m */,
-				46EB2E000003D0 /* Support Files */,
+				46EB2E000000F0 /* CTMediator.h */,
+				46EB2E00000100 /* CTMediator.m */,
+				46EB2E00000470 /* Support Files */,
 			);
-			name = MGJRouter;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		46EB2E000000C0 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000110 /* MGJRouter.h */,
+				46EB2E00000120 /* MGJRouter.m */,
+				46EB2E00000560 /* Support Files */,
+			);
 			path = MGJRouter;
 			sourceTree = "<group>";
 		};
-		46EB2E000000C0 /* TestAppModule */ = {
+		46EB2E000000D0 /* TestAppModule */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000002F0 /* Pod */,
-				46EB2E00000530 /* Support Files */,
-				46EB2E00000100 /* TestA */,
-				46EB2E00000150 /* TestB */,
-				46EB2E000001C0 /* TestBasis */,
-				46EB2E00000260 /* TestC */,
+				46EB2E00000390 /* Pod */,
+				46EB2E000006C0 /* Support Files */,
+				46EB2E00000130 /* TestA */,
+				46EB2E00000180 /* TestB */,
+				46EB2E000001F0 /* TestBasis */,
+				46EB2E00000300 /* TestC */,
 			);
 			name = TestAppModule;
 			path = ../../TestAppModule;
 			sourceTree = "<group>";
 		};
-		46EB2E00000100 /* TestA */ = {
+		46EB2E00000130 /* TestA */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000110 /* TestARoute.h */,
-				46EB2E00000120 /* TestARoute.m */,
-				46EB2E00000130 /* TestAViewController.h */,
-				46EB2E00000140 /* TestAViewController.m */,
-				46EB2E000002B0 /* Resources */,
+				46EB2E00000140 /* TestARoute.h */,
+				46EB2E00000150 /* TestARoute.m */,
+				46EB2E00000160 /* TestAViewController.h */,
+				46EB2E00000170 /* TestAViewController.m */,
+				46EB2E00000350 /* Resources */,
 			);
 			name = TestA;
 			sourceTree = "<group>";
 		};
-		46EB2E00000150 /* TestB */ = {
+		46EB2E00000180 /* TestB */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000160 /* TestBDetailsViewController.h */,
-				46EB2E00000170 /* TestBDetailsViewController.m */,
-				46EB2E00000180 /* TestBViewController.h */,
-				46EB2E00000190 /* TestBViewController.m */,
-				46EB2E000001A0 /* TexsBRoute.h */,
-				46EB2E000001B0 /* TexsBRoute.m */,
+				46EB2E00000190 /* TestBDetailsViewController.h */,
+				46EB2E000001A0 /* TestBDetailsViewController.m */,
+				46EB2E000001B0 /* TestBViewController.h */,
+				46EB2E000001C0 /* TestBViewController.m */,
+				46EB2E000001D0 /* TexsBRoute.h */,
+				46EB2E000001E0 /* TexsBRoute.m */,
+				9FACB93822DEC20A0025F181 /* Target_TestB.h */,
+				9FACB93922DEC20A0025F181 /* Target_TestB.m */,
 			);
 			name = TestB;
 			sourceTree = "<group>";
 		};
-		46EB2E000001C0 /* TestBasis */ = {
+		46EB2E000001F0 /* TestBasis */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000200 /* NSBundle+TextBundleName.h */,
-				46EB2E00000210 /* NSBundle+TextBundleName.m */,
-				46EB2E00000250 /* TestBasisHeader.h */,
-				46EB2E000001D0 /* BasisTool */,
-				46EB2E00000220 /* RequestTool */,
-				46EB2E000002D0 /* Resources */,
+				46EB2E000002A0 /* NSBundle+TextBundleName.h */,
+				46EB2E000002B0 /* NSBundle+TextBundleName.m */,
+				46EB2E000002F0 /* TestBasisHeader.h */,
+				46EB2E00000200 /* BasisTool */,
+				46EB2E00000230 /* CTMediator_Category */,
+				46EB2E000002C0 /* RequestTool */,
+				46EB2E00000370 /* Resources */,
 			);
 			name = TestBasis;
 			sourceTree = "<group>";
 		};
-		46EB2E000001D0 /* BasisTool */ = {
+		46EB2E00000200 /* BasisTool */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001E0 /* BasisTool.h */,
-				46EB2E000001F0 /* BasisTool.m */,
+				46EB2E00000210 /* BasisTool.h */,
+				46EB2E00000220 /* BasisTool.m */,
 			);
 			name = BasisTool;
 			path = TestBasis/TestBasis/Classes/BasisTool;
 			sourceTree = "<group>";
 		};
-		46EB2E00000220 /* RequestTool */ = {
+		46EB2E00000230 /* CTMediator_Category */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000230 /* RequestTool.h */,
-				46EB2E00000240 /* RequestTool.m */,
+				46EB2E00000240 /* CTMediator+TestA.h */,
+				46EB2E00000250 /* CTMediator+TestA.m */,
+				46EB2E00000260 /* CTMediator+TestB.h */,
+				46EB2E00000270 /* CTMediator+TestB.m */,
+				46EB2E00000280 /* CTMediator+TestC.h */,
+				46EB2E00000290 /* CTMediator+TestC.m */,
+			);
+			name = CTMediator_Category;
+			path = TestBasis/TestBasis/Classes/CTMediator_Category;
+			sourceTree = "<group>";
+		};
+		46EB2E000002C0 /* RequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E000002D0 /* RequestTool.h */,
+				46EB2E000002E0 /* RequestTool.m */,
 			);
 			name = RequestTool;
 			path = TestBasis/TestBasis/Classes/RequestTool;
 			sourceTree = "<group>";
 		};
-		46EB2E00000260 /* TestC */ = {
+		46EB2E00000300 /* TestC */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000270 /* TestCRoute.h */,
-				46EB2E00000280 /* TestCRoute.m */,
-				46EB2E00000290 /* TestCViewController.h */,
-				46EB2E000002A0 /* TestCViewController.m */,
+				46EB2E00000310 /* TestCRoute.h */,
+				46EB2E00000320 /* TestCRoute.m */,
+				46EB2E00000330 /* TestCViewController.h */,
+				46EB2E00000340 /* TestCViewController.m */,
 			);
 			name = TestC;
 			sourceTree = "<group>";
 		};
-		46EB2E000002B0 /* Resources */ = {
+		46EB2E00000350 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000002C0 /* TestA.xcassets */,
+				46EB2E00000360 /* TestA.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		46EB2E000002D0 /* Resources */ = {
+		46EB2E00000370 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000002E0 /* TestBasis.xcassets */,
+				46EB2E00000380 /* TestBasis.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		46EB2E000002F0 /* Pod */ = {
+		46EB2E00000390 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000300 /* README.en.md */,
-				46EB2E00000310 /* TestA.pch */,
-				46EB2E00000320 /* TestAppModule.podspec */,
+				46EB2E000003A0 /* README.en.md */,
+				46EB2E000003B0 /* TestA.pch */,
+				46EB2E000003C0 /* TestAppModule.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		46EB2E000003D0 /* Support Files */ = {
+		46EB2E00000470 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000003E0 /* MGJRouter.xcconfig */,
-				46EB2E00000400 /* MGJRouter-dummy.m */,
-				46EB2E000003F0 /* MGJRouter-prefix.pch */,
+				46EB2E00000480 /* CTMediator.xcconfig */,
+				46EB2E000004A0 /* CTMediator-dummy.m */,
+				46EB2E00000490 /* CTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		46EB2E00000560 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000570 /* MGJRouter.xcconfig */,
+				46EB2E00000590 /* MGJRouter-dummy.m */,
+				46EB2E00000580 /* MGJRouter-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MGJRouter";
 			sourceTree = "<group>";
 		};
-		46EB2E00000530 /* Support Files */ = {
+		46EB2E000006C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000540 /* ResourceBundle-TestA-TestAppModule-Info.plist */,
-				46EB2E000005D0 /* ResourceBundle-TestB-TestAppModule-Info.plist */,
-				46EB2E00000670 /* ResourceBundle-TestBasis-TestAppModule-Info.plist */,
-				46EB2E00000700 /* ResourceBundle-TestC-TestAppModule-Info.plist */,
-				46EB2E00000860 /* TestAppModule.xcconfig */,
-				46EB2E00000880 /* TestAppModule-dummy.m */,
-				46EB2E00000870 /* TestAppModule-prefix.pch */,
+				46EB2E000006D0 /* ResourceBundle-TestA-TestAppModule-Info.plist */,
+				46EB2E00000760 /* ResourceBundle-TestB-TestAppModule-Info.plist */,
+				46EB2E00000800 /* ResourceBundle-TestBasis-TestAppModule-Info.plist */,
+				46EB2E00000890 /* ResourceBundle-TestC-TestAppModule-Info.plist */,
+				46EB2E00000A50 /* TestAppModule.xcconfig */,
+				46EB2E00000A70 /* TestAppModule-dummy.m */,
+				46EB2E00000A60 /* TestAppModule-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../TestApp/Pods/Target Support Files/TestAppModule";
 			sourceTree = "<group>";
 		};
-		46EB2E00000920 /* Pods-TestApp */ = {
+		46EB2E00000B10 /* Pods-TestApp */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000970 /* Pods-TestApp-acknowledgements.markdown */,
-				46EB2E00000960 /* Pods-TestApp-acknowledgements.plist */,
-				46EB2E00000980 /* Pods-TestApp-dummy.m */,
-				46EB2E00000950 /* Pods-TestApp-resources.sh */,
-				46EB2E00000940 /* Pods-TestApp.debug.xcconfig */,
-				46EB2E00000930 /* Pods-TestApp.release.xcconfig */,
+				46EB2E00000B60 /* Pods-TestApp-acknowledgements.markdown */,
+				46EB2E00000B50 /* Pods-TestApp-acknowledgements.plist */,
+				46EB2E00000B70 /* Pods-TestApp-dummy.m */,
+				46EB2E00000B40 /* Pods-TestApp-resources.sh */,
+				46EB2E00000B30 /* Pods-TestApp.debug.xcconfig */,
+				46EB2E00000B20 /* Pods-TestApp.release.xcconfig */,
 			);
 			name = "Pods-TestApp";
 			path = "Target Support Files/Pods-TestApp";
@@ -417,33 +502,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E00000380 /* Headers */ = {
+		46EB2E00000420 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000003C0 /* MGJRouter.h in Headers */,
+				9FACB93A22DEC20A0025F181 /* Target_TestB.h in Headers */,
+				46EB2E00000460 /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000470 /* Headers */ = {
+		46EB2E00000510 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000007E0 /* BasisTool.h in Headers */,
-				46EB2E000007F0 /* NSBundle+TextBundleName.h in Headers */,
-				46EB2E00000800 /* RequestTool.h in Headers */,
-				46EB2E00000730 /* TestARoute.h in Headers */,
-				46EB2E00000740 /* TestAViewController.h in Headers */,
-				46EB2E00000810 /* TestBasisHeader.h in Headers */,
-				46EB2E00000780 /* TestBDetailsViewController.h in Headers */,
-				46EB2E00000790 /* TestBViewController.h in Headers */,
-				46EB2E00000840 /* TestCRoute.h in Headers */,
-				46EB2E00000850 /* TestCViewController.h in Headers */,
-				46EB2E000007A0 /* TexsBRoute.h in Headers */,
+				46EB2E00000550 /* MGJRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000008F0 /* Headers */ = {
+		46EB2E00000600 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E000009A0 /* BasisTool.h in Headers */,
+				46EB2E000009B0 /* CTMediator+TestA.h in Headers */,
+				46EB2E000009C0 /* CTMediator+TestB.h in Headers */,
+				46EB2E000009D0 /* CTMediator+TestC.h in Headers */,
+				46EB2E000009E0 /* NSBundle+TextBundleName.h in Headers */,
+				46EB2E000009F0 /* RequestTool.h in Headers */,
+				46EB2E000008C0 /* TestARoute.h in Headers */,
+				46EB2E000008D0 /* TestAViewController.h in Headers */,
+				46EB2E00000A00 /* TestBasisHeader.h in Headers */,
+				46EB2E00000910 /* TestBDetailsViewController.h in Headers */,
+				46EB2E00000920 /* TestBViewController.h in Headers */,
+				46EB2E00000A30 /* TestCRoute.h in Headers */,
+				46EB2E00000A40 /* TestCViewController.h in Headers */,
+				46EB2E00000930 /* TexsBRoute.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000AE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,11 +552,11 @@
 /* Begin PBXNativeTarget section */
 		05EFAB4641387DB59867C088BAF00810 /* MGJRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000340 /* Build configuration list for PBXNativeTarget "MGJRouter" */;
+			buildConfigurationList = 46EB2E000004D0 /* Build configuration list for PBXNativeTarget "MGJRouter" */;
 			buildPhases = (
-				46EB2E00000380 /* Headers */,
-				46EB2E00000390 /* Sources */,
-				46EB2E000003A0 /* Frameworks */,
+				46EB2E00000510 /* Headers */,
+				46EB2E00000520 /* Sources */,
+				46EB2E00000530 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -467,16 +564,33 @@
 			);
 			name = MGJRouter;
 			productName = MGJRouter;
-			productReference = 46EB2E00000370 /* libMGJRouter.a */;
+			productReference = 46EB2E00000500 /* libMGJRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000003E0 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				46EB2E00000420 /* Headers */,
+				46EB2E00000430 /* Sources */,
+				46EB2E00000440 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 46EB2E00000410 /* libCTMediator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8696C341BC9687E900D2FA672CAA1414 /* TestAppModule-TestC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000690 /* Build configuration list for PBXNativeTarget "TestAppModule-TestC" */;
+			buildConfigurationList = 46EB2E00000820 /* Build configuration list for PBXNativeTarget "TestAppModule-TestC" */;
 			buildPhases = (
-				46EB2E000006D0 /* Sources */,
-				46EB2E000006E0 /* Frameworks */,
-				46EB2E000006F0 /* Resources */,
+				46EB2E00000860 /* Sources */,
+				46EB2E00000870 /* Frameworks */,
+				46EB2E00000880 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -484,16 +598,16 @@
 			);
 			name = "TestAppModule-TestC";
 			productName = "TestAppModule-TestC";
-			productReference = 46EB2E000006C0 /* TestC.bundle */;
+			productReference = 46EB2E00000850 /* TestC.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		91EA1CD6FD07D5D84EFB9C31ADA9E94D /* TestAppModule-TestB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000560 /* Build configuration list for PBXNativeTarget "TestAppModule-TestB" */;
+			buildConfigurationList = 46EB2E000006F0 /* Build configuration list for PBXNativeTarget "TestAppModule-TestB" */;
 			buildPhases = (
-				46EB2E000005A0 /* Sources */,
-				46EB2E000005B0 /* Frameworks */,
-				46EB2E000005C0 /* Resources */,
+				46EB2E00000730 /* Sources */,
+				46EB2E00000740 /* Frameworks */,
+				46EB2E00000750 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -501,38 +615,39 @@
 			);
 			name = "TestAppModule-TestB";
 			productName = "TestAppModule-TestB";
-			productReference = 46EB2E00000590 /* TestB.bundle */;
+			productReference = 46EB2E00000720 /* TestB.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		9F3406E5AD59CDDD5B7C47D99E43E887 /* TestAppModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000430 /* Build configuration list for PBXNativeTarget "TestAppModule" */;
+			buildConfigurationList = 46EB2E000005C0 /* Build configuration list for PBXNativeTarget "TestAppModule" */;
 			buildPhases = (
-				46EB2E00000470 /* Headers */,
-				46EB2E00000480 /* Sources */,
-				46EB2E00000490 /* Frameworks */,
+				46EB2E00000600 /* Headers */,
+				46EB2E00000610 /* Sources */,
+				46EB2E00000620 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000A70 /* PBXTargetDependency */,
-				46EB2E000009F0 /* PBXTargetDependency */,
-				46EB2E00000A10 /* PBXTargetDependency */,
-				46EB2E00000A30 /* PBXTargetDependency */,
-				46EB2E00000A50 /* PBXTargetDependency */,
+				46EB2E00000CA0 /* PBXTargetDependency */,
+				46EB2E00000C80 /* PBXTargetDependency */,
+				46EB2E00000C00 /* PBXTargetDependency */,
+				46EB2E00000C20 /* PBXTargetDependency */,
+				46EB2E00000C40 /* PBXTargetDependency */,
+				46EB2E00000C60 /* PBXTargetDependency */,
 			);
 			name = TestAppModule;
 			productName = TestAppModule;
-			productReference = 46EB2E00000460 /* libTestAppModule.a */;
+			productReference = 46EB2E000005F0 /* libTestAppModule.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AA1F41BA6F88DD624D0BE491D58966FD /* TestAppModule-TestA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000004B0 /* Build configuration list for PBXNativeTarget "TestAppModule-TestA" */;
+			buildConfigurationList = 46EB2E00000640 /* Build configuration list for PBXNativeTarget "TestAppModule-TestA" */;
 			buildPhases = (
-				46EB2E000004F0 /* Sources */,
-				46EB2E00000500 /* Frameworks */,
-				46EB2E00000510 /* Resources */,
+				46EB2E00000680 /* Sources */,
+				46EB2E00000690 /* Frameworks */,
+				46EB2E000006A0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -540,35 +655,36 @@
 			);
 			name = "TestAppModule-TestA";
 			productName = "TestAppModule-TestA";
-			productReference = 46EB2E000004E0 /* TestA.bundle */;
+			productReference = 46EB2E00000670 /* TestA.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		CDFBFBA537A3451DF3B07484C1A6929D /* Pods-TestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000008B0 /* Build configuration list for PBXNativeTarget "Pods-TestApp" */;
+			buildConfigurationList = 46EB2E00000AA0 /* Build configuration list for PBXNativeTarget "Pods-TestApp" */;
 			buildPhases = (
-				46EB2E000008F0 /* Headers */,
-				46EB2E00000900 /* Sources */,
-				46EB2E00000910 /* Frameworks */,
+				46EB2E00000AE0 /* Headers */,
+				46EB2E00000AF0 /* Sources */,
+				46EB2E00000B00 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E000009B0 /* PBXTargetDependency */,
-				46EB2E000009D0 /* PBXTargetDependency */,
+				46EB2E00000BA0 /* PBXTargetDependency */,
+				46EB2E00000BC0 /* PBXTargetDependency */,
+				46EB2E00000BE0 /* PBXTargetDependency */,
 			);
 			name = "Pods-TestApp";
 			productName = "Pods-TestApp";
-			productReference = 46EB2E000008E0 /* libPods-TestApp.a */;
+			productReference = 46EB2E00000AD0 /* libPods-TestApp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E50C22085320AF2E795956482AE835FF /* TestAppModule-TestBasis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000005F0 /* Build configuration list for PBXNativeTarget "TestAppModule-TestBasis" */;
+			buildConfigurationList = 46EB2E00000780 /* Build configuration list for PBXNativeTarget "TestAppModule-TestBasis" */;
 			buildPhases = (
-				46EB2E00000630 /* Sources */,
-				46EB2E00000640 /* Frameworks */,
-				46EB2E00000650 /* Resources */,
+				46EB2E000007C0 /* Sources */,
+				46EB2E000007D0 /* Frameworks */,
+				46EB2E000007E0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -576,7 +692,7 @@
 			);
 			name = "TestAppModule-TestBasis";
 			productName = "TestAppModule-TestBasis";
-			productReference = 46EB2E00000620 /* TestBasis.bundle */;
+			productReference = 46EB2E000007B0 /* TestBasis.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -593,6 +709,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 46EB2E00000010;
@@ -600,6 +717,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				05EFAB4641387DB59867C088BAF00810 /* MGJRouter */,
 				CDFBFBA537A3451DF3B07484C1A6929D /* Pods-TestApp */,
 				9F3406E5AD59CDDD5B7C47D99E43E887 /* TestAppModule */,
@@ -612,30 +730,30 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E00000510 /* Resources */ = {
+		46EB2E000006A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000520 /* TestA.xcassets in Resources */,
+				46EB2E000006B0 /* TestA.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000005C0 /* Resources */ = {
+		46EB2E00000750 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000650 /* Resources */ = {
+		46EB2E000007E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000660 /* TestBasis.xcassets in Resources */,
+				46EB2E000007F0 /* TestBasis.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000006F0 /* Resources */ = {
+		46EB2E00000880 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -645,113 +763,138 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E00000390 /* Sources */ = {
+		46EB2E00000430 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000410 /* MGJRouter-dummy.m in Sources */,
-				46EB2E000003B0 /* MGJRouter.m in Sources */,
+				46EB2E000004B0 /* CTMediator-dummy.m in Sources */,
+				9FACB93B22DEC20A0025F181 /* Target_TestB.m in Sources */,
+				46EB2E00000450 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000480 /* Sources */ = {
+		46EB2E00000520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000007B0 /* BasisTool.m in Sources */,
-				46EB2E000007C0 /* NSBundle+TextBundleName.m in Sources */,
-				46EB2E000007D0 /* RequestTool.m in Sources */,
-				46EB2E00000890 /* TestAppModule-dummy.m in Sources */,
-				46EB2E00000710 /* TestARoute.m in Sources */,
-				46EB2E00000720 /* TestAViewController.m in Sources */,
-				46EB2E00000750 /* TestBDetailsViewController.m in Sources */,
-				46EB2E00000760 /* TestBViewController.m in Sources */,
-				46EB2E00000820 /* TestCRoute.m in Sources */,
-				46EB2E00000830 /* TestCViewController.m in Sources */,
-				46EB2E00000770 /* TexsBRoute.m in Sources */,
+				46EB2E000005A0 /* MGJRouter-dummy.m in Sources */,
+				46EB2E00000540 /* MGJRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000004F0 /* Sources */ = {
+		46EB2E00000610 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EB2E00000940 /* BasisTool.m in Sources */,
+				46EB2E00000950 /* CTMediator+TestA.m in Sources */,
+				46EB2E00000960 /* CTMediator+TestB.m in Sources */,
+				46EB2E00000970 /* CTMediator+TestC.m in Sources */,
+				46EB2E00000980 /* NSBundle+TextBundleName.m in Sources */,
+				46EB2E00000990 /* RequestTool.m in Sources */,
+				46EB2E00000A80 /* TestAppModule-dummy.m in Sources */,
+				46EB2E000008A0 /* TestARoute.m in Sources */,
+				46EB2E000008B0 /* TestAViewController.m in Sources */,
+				46EB2E000008E0 /* TestBDetailsViewController.m in Sources */,
+				46EB2E000008F0 /* TestBViewController.m in Sources */,
+				46EB2E00000A10 /* TestCRoute.m in Sources */,
+				46EB2E00000A20 /* TestCViewController.m in Sources */,
+				46EB2E00000900 /* TexsBRoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000005A0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E00000630 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46EB2E000006D0 /* Sources */ = {
+		46EB2E00000680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000900 /* Sources */ = {
+		46EB2E00000730 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000990 /* Pods-TestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E000007C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EB2E00000AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EB2E00000B80 /* Pods-TestApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E000009B0 /* PBXTargetDependency */ = {
+		46EB2E00000BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 46EB2E00000B90 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000BC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGJRouter;
 			target = 05EFAB4641387DB59867C088BAF00810 /* MGJRouter */;
-			targetProxy = 46EB2E000009A0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000BB0 /* PBXContainerItemProxy */;
 		};
-		46EB2E000009D0 /* PBXTargetDependency */ = {
+		46EB2E00000BE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TestAppModule;
 			target = 9F3406E5AD59CDDD5B7C47D99E43E887 /* TestAppModule */;
-			targetProxy = 46EB2E000009C0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000BD0 /* PBXContainerItemProxy */;
 		};
-		46EB2E000009F0 /* PBXTargetDependency */ = {
+		46EB2E00000C00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TestAppModule-TestA";
 			target = AA1F41BA6F88DD624D0BE491D58966FD /* TestAppModule-TestA */;
-			targetProxy = 46EB2E000009E0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000BF0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000A10 /* PBXTargetDependency */ = {
+		46EB2E00000C20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TestAppModule-TestB";
 			target = 91EA1CD6FD07D5D84EFB9C31ADA9E94D /* TestAppModule-TestB */;
-			targetProxy = 46EB2E00000A00 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000C10 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000A30 /* PBXTargetDependency */ = {
+		46EB2E00000C40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TestAppModule-TestBasis";
 			target = E50C22085320AF2E795956482AE835FF /* TestAppModule-TestBasis */;
-			targetProxy = 46EB2E00000A20 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000C30 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000A50 /* PBXTargetDependency */ = {
+		46EB2E00000C60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TestAppModule-TestC";
 			target = 8696C341BC9687E900D2FA672CAA1414 /* TestAppModule-TestC */;
-			targetProxy = 46EB2E00000A40 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000C50 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000A70 /* PBXTargetDependency */ = {
+		46EB2E00000C80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGJRouter;
 			target = 05EFAB4641387DB59867C088BAF00810 /* MGJRouter */;
-			targetProxy = 46EB2E00000A60 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000C70 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 46EB2E00000C90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -880,9 +1023,56 @@
 			};
 			name = Release;
 		};
-		46EB2E00000350 /* Release */ = {
+		46EB2E000003F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000003E0 /* MGJRouter.xcconfig */;
+			baseConfigurationReference = 46EB2E00000480 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EB2E00000400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000480 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EB2E000004E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EB2E00000570 /* MGJRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -904,9 +1094,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000360 /* Debug */ = {
+		46EB2E000004F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000003E0 /* MGJRouter.xcconfig */;
+			baseConfigurationReference = 46EB2E00000570 /* MGJRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -927,9 +1117,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000440 /* Release */ = {
+		46EB2E000005D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -951,9 +1141,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000450 /* Debug */ = {
+		46EB2E000005E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -974,9 +1164,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000004C0 /* Release */ = {
+		46EB2E00000650 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -990,9 +1180,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000004D0 /* Debug */ = {
+		46EB2E00000660 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1006,9 +1196,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000570 /* Release */ = {
+		46EB2E00000700 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1022,9 +1212,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000580 /* Debug */ = {
+		46EB2E00000710 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1038,9 +1228,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000600 /* Release */ = {
+		46EB2E00000790 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1054,9 +1244,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000610 /* Debug */ = {
+		46EB2E000007A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1070,9 +1260,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000006A0 /* Release */ = {
+		46EB2E00000830 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1086,9 +1276,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000006B0 /* Debug */ = {
+		46EB2E00000840 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000860 /* TestAppModule.xcconfig */;
+			baseConfigurationReference = 46EB2E00000A50 /* TestAppModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TestAppModule";
@@ -1102,9 +1292,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000008C0 /* Release */ = {
+		46EB2E00000AB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000930 /* Pods-TestApp.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000B20 /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1124,9 +1314,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000008D0 /* Debug */ = {
+		46EB2E00000AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000940 /* Pods-TestApp.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000B30 /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1157,65 +1347,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000340 /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+		46EB2E000003E0 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000360 /* Debug */,
-				46EB2E00000350 /* Release */,
+				46EB2E00000400 /* Debug */,
+				46EB2E000003F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000430 /* Build configuration list for PBXNativeTarget "TestAppModule" */ = {
+		46EB2E000004D0 /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000450 /* Debug */,
-				46EB2E00000440 /* Release */,
+				46EB2E000004F0 /* Debug */,
+				46EB2E000004E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000004B0 /* Build configuration list for PBXNativeTarget "TestAppModule-TestA" */ = {
+		46EB2E000005C0 /* Build configuration list for PBXNativeTarget "TestAppModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000004D0 /* Debug */,
-				46EB2E000004C0 /* Release */,
+				46EB2E000005E0 /* Debug */,
+				46EB2E000005D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000560 /* Build configuration list for PBXNativeTarget "TestAppModule-TestB" */ = {
+		46EB2E00000640 /* Build configuration list for PBXNativeTarget "TestAppModule-TestA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000580 /* Debug */,
-				46EB2E00000570 /* Release */,
+				46EB2E00000660 /* Debug */,
+				46EB2E00000650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000005F0 /* Build configuration list for PBXNativeTarget "TestAppModule-TestBasis" */ = {
+		46EB2E000006F0 /* Build configuration list for PBXNativeTarget "TestAppModule-TestB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000610 /* Debug */,
-				46EB2E00000600 /* Release */,
+				46EB2E00000710 /* Debug */,
+				46EB2E00000700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000690 /* Build configuration list for PBXNativeTarget "TestAppModule-TestC" */ = {
+		46EB2E00000780 /* Build configuration list for PBXNativeTarget "TestAppModule-TestBasis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000006B0 /* Debug */,
-				46EB2E000006A0 /* Release */,
+				46EB2E000007A0 /* Debug */,
+				46EB2E00000790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000008B0 /* Build configuration list for PBXNativeTarget "Pods-TestApp" */ = {
+		46EB2E00000820 /* Build configuration list for PBXNativeTarget "TestAppModule-TestC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000008D0 /* Debug */,
-				46EB2E000008C0 /* Release */,
+				46EB2E00000840 /* Debug */,
+				46EB2E00000830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EB2E00000AA0 /* Build configuration list for PBXNativeTarget "Pods-TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EB2E00000AC0 /* Debug */,
+				46EB2E00000AB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
