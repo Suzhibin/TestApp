@@ -39,7 +39,7 @@
 }
 - (void)setupChildViewController:(UIViewController *)vc title:(NSString *)title
 {
-   vc.title = title;
+    vc.title = title;
  
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:vc]];
 }
