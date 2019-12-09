@@ -6,6 +6,12 @@ PODS:
   - TestAppModule/TestB (1.0.0):
     - TestAppModule/TestBasis
   - TestAppModule/TestBasis (1.0.0):
+    - TestAppModule/TestBasis/BasisTool (= 1.0.0)
+    - TestAppModule/TestBasis/RequestTool (= 1.0.0)
+    - TestAppModule/TestBasis/Utility (= 1.0.0)
+  - TestAppModule/TestBasis/BasisTool (1.0.0)
+  - TestAppModule/TestBasis/RequestTool (1.0.0)
+  - TestAppModule/TestBasis/Utility (1.0.0):
     - CTMediator
     - MGJRouter
   - TestAppModule/TestC (1.0.0):
@@ -29,7 +35,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
-  TestAppModule: abfb61e7cdb25900d9914cd08f33873a78a53ed6
+  TestAppModule: 94b3c4ecc67cc8cdc9f6ecfd6497f14ef5cb8bf8
 
 PODFILE CHECKSUM: db4f92f3bd0b888d0e348b95b0929dac5abf3520
 

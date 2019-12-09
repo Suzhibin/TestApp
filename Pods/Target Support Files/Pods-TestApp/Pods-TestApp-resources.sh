@@ -100,12 +100,18 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestA.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestB.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestBasis.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/BasisTool.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/RequestTool.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/Utility.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestC.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestA.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestB.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestBasis.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/BasisTool.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/RequestTool.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/Utility.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TestAppModule/TestC.bundle"
 fi
 
