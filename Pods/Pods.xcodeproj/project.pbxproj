@@ -143,10 +143,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0789A525972C7EBACDB0495D2BD84DFC /* TestBasis.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestBasis.bundle; path = "TestAppModule-TestBasis.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1741C427A29FC66FD88CF7E0D2686F21 /* TestC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestC.bundle; path = "TestAppModule-TestC.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A566D77688802269ADBD95A341F805 /* RequestTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RequestTool.bundle; path = "TestAppModule-RequestTool.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E000000E0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0789A525972C7EBACDB0495D2BD84DFC /* TestBasis.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBasis.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C427A29FC66FD88CF7E0D2686F21 /* TestC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A566D77688802269ADBD95A341F805 /* RequestTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E000000E0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E000000F0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		46EB2E00000100 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		46EB2E00000110 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
@@ -188,9 +188,9 @@
 		46EB2E00000430 /* TestCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestCViewController.m; path = TestC/TestC/Classes/TestCViewController.m; sourceTree = "<group>"; };
 		46EB2E00000450 /* TestA.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TestA.xcassets; path = TestA/TestA/Classes/TestA.xcassets; sourceTree = "<group>"; };
 		46EB2E00000470 /* TestBasis.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TestBasis.xcassets; path = TestBasis/TestBasis/Classes/Utility/TestBasis.xcassets; sourceTree = "<group>"; };
-		46EB2E000004A0 /* README.en.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.en.md; sourceTree = "<group>"; };
+		46EB2E000004A0 /* README.en.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.en.md; sourceTree = "<group>"; };
 		46EB2E000004B0 /* TestA.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestA.pch; path = TestA/TestA/Classes/TestA.pch; sourceTree = "<group>"; };
-		46EB2E000004C0 /* TestAppModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestAppModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E000004C0 /* TestAppModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestAppModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		46EB2E00000580 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		46EB2E00000590 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E000005A0 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
@@ -213,14 +213,14 @@
 		46EB2E00000E90 /* Pods-TestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E00000EA0 /* Pods-TestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E00000EB0 /* Pods-TestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestApp-dummy.m"; sourceTree = "<group>"; };
-		508D2580B277AE80911B78D6307EE129 /* TestB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestB.bundle; path = "TestAppModule-TestB.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59FB43B2BEA01939835B1F8381552EEF /* libTestAppModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTestAppModule.a; path = libTestAppModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FF7DE407F546299E0A472F97970F442 /* Utility.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Utility.bundle; path = "TestAppModule-Utility.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B1FB3877F7FAA19795E290F949BE360 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMGJRouter.a; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F296548EED12DDD3BA863FCE00CBD39 /* BasisTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BasisTool.bundle; path = "TestAppModule-BasisTool.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E537555010E35D7CDF9D7F38811C24DE /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestApp.a"; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDA246C8413ECA44E9837F0E5B84893D /* TestA.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TestA.bundle; path = "TestAppModule-TestA.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		508D2580B277AE80911B78D6307EE129 /* TestB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestB.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FB43B2BEA01939835B1F8381552EEF /* libTestAppModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestAppModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF7DE407F546299E0A472F97970F442 /* Utility.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Utility.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1FB3877F7FAA19795E290F949BE360 /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F296548EED12DDD3BA863FCE00CBD39 /* BasisTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasisTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E537555010E35D7CDF9D7F38811C24DE /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA246C8413ECA44E9837F0E5B84893D /* TestA.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestA.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,7 +373,6 @@
 				46EB2E00000100 /* CTMediator.m */,
 				46EB2E00000570 /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -384,7 +383,6 @@
 				46EB2E00000120 /* MGJRouter.m */,
 				46EB2E00000660 /* Support Files */,
 			);
-			name = MGJRouter;
 			path = MGJRouter;
 			sourceTree = "<group>";
 		};
@@ -523,7 +521,6 @@
 				46EB2E00000340 /* CTMediator+TestC.h */,
 				46EB2E00000350 /* CTMediator+TestC.m */,
 			);
-			name = CTMediator_Category;
 			path = CTMediator_Category;
 			sourceTree = "<group>";
 		};
