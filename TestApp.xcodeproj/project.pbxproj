@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449E7361F6442C637331F413 /* libPods-TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1069D6964288B3F4304B26E6 /* libPods-TestApp.a */; };
+		5D0C6F2A74DA48B913B80923 /* libPods-TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D059D39780658BEE361D304 /* libPods-TestApp.a */; };
 		9F9EDD8722D74147003E519A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EDD8622D74147003E519A /* AppDelegate.m */; };
 		9F9EDD8A22D74147003E519A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EDD8922D74147003E519A /* ViewController.m */; };
 		9F9EDD8D22D74148003E519A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9EDD8B22D74148003E519A /* Main.storyboard */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0AA2B90C757F423586C56877 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
-		1069D6964288B3F4304B26E6 /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D059D39780658BEE361D304 /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9EDD8222D74147003E519A /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9EDD8522D74147003E519A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F9EDD8622D74147003E519A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449E7361F6442C637331F413 /* libPods-TestApp.a in Frameworks */,
+				5D0C6F2A74DA48B913B80923 /* libPods-TestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		2A64FFACCCACB98B82D8F9B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1069D6964288B3F4304B26E6 /* libPods-TestApp.a */,
+				1D059D39780658BEE361D304 /* libPods-TestApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 				9F9EDD7E22D74147003E519A /* Sources */,
 				9F9EDD7F22D74147003E519A /* Frameworks */,
 				9F9EDD8022D74147003E519A /* Resources */,
-				306C375B4D9B1AD52EBB58B2 /* [CP] Copy Pods Resources */,
+				2B07A005B190D4C6A5CFA33E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +230,7 @@
 				TargetAttributes = {
 					9F9EDD8122D74147003E519A = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1140;
 					};
 					9F9EDD9922D74149003E519A = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -289,7 +290,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		306C375B4D9B1AD52EBB58B2 /* [CP] Copy Pods Resources */ = {
+		2B07A005B190D4C6A5CFA33E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -510,14 +511,20 @@
 			baseConfigurationReference = E1488C72A4C64AA39D4CDCA5 /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/TestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -527,14 +534,19 @@
 			baseConfigurationReference = 0AA2B90C757F423586C56877 /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestApp/TestApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

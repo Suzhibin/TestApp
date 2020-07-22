@@ -39,6 +39,10 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
 
 - (id)performActionWithUrl:(NSURL *)url completion:(void (^)(NSDictionary *))completion
 {
+    if (url == nil) {
+        return nil;
+    }
+    
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     NSString *urlString = [url query];
     for (NSString *param in [urlString componentsSeparatedByString:@"&"]) {
@@ -67,6 +71,10 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
 
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget
 {
+    if (targetName == nil || actionName == nil) {
+        return nil;
+    }
+    
     NSString *swiftModuleName = params[kCTMediatorParamsKeySwiftTargetModuleName];
     
     // generate target
@@ -112,10 +120,15 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     }
 }
 
-- (void)releaseCachedTargetWithTargetName:(NSString *)targetName
+- (void)releaseCachedTargetWithFullTargetName:(NSString *)fullTargetName
 {
-    NSString *targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
-    [self.cachedTarget removeObjectForKey:targetClassString];
+    /*
+     fullTargetName在oc环境下，就是Target_XXXX。要带上Target_前缀。在swift环境下，就是XXXModule.Target_YYY。不光要带上Target_前缀，还要带上模块名。
+     */
+    if (fullTargetName == nil) {
+        return;
+    }
+    [self.cachedTarget removeObjectForKey:fullTargetName];
 }
 
 #pragma mark - private methods
@@ -209,3 +222,7 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
 }
 
 @end
+
+CTMediator* _Nonnull CT(void){
+    return [CTMediator sharedInstance];
+};

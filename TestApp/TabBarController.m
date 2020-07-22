@@ -33,7 +33,7 @@
     
     TestBViewController *testB=[[TestBViewController alloc]init];
     [self setupChildViewController:testB title:@"testB"];
-    
+
     TestCViewController *testC=[[TestCViewController alloc]init];
     [self setupChildViewController:testC title:@"testC"];
 }

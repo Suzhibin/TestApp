@@ -1,5 +1,5 @@
 PODS:
-  - CTMediator (25)
+  - CTMediator (36)
   - MGJRouter (0.10.0)
   - TestAppModule/TestA (1.0.0):
     - TestAppModule/TestBasis
@@ -33,10 +33,10 @@ EXTERNAL SOURCES:
     :path: "../TestAppModule"
 
 SPEC CHECKSUMS:
-  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  CTMediator: 918aa0afe3fa537f380a1fb15e7603a7e19fa0c4
   MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
-  TestAppModule: 94b3c4ecc67cc8cdc9f6ecfd6497f14ef5cb8bf8
+  TestAppModule: d18bda525e2a98d0011c53403ea5803730f37d21
 
-PODFILE CHECKSUM: c8e92e740189c145abb64f0dccd1881a378390b0
+PODFILE CHECKSUM: 2ed43ffff2db5c12363b926ec784aaf2956a1227
 
 COCOAPODS: 1.9.1
